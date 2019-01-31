@@ -1,12 +1,12 @@
 # streamwidgets
 Widgets for WAEverything Twitch
 
-##Backgrounds
+## Backgrounds
 Background https://waeverything.github.io/streamwidgets/background1/index.html
 
-##Widgets
+## Widgets
 
-#####Discordwidget
+##### Discordwidget
 https://waeverything.github.io/streamwidgets/background1/index.html
 Resolutions for OBS Browser plugin
 354x114
