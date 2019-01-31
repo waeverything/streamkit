@@ -1,5 +1,5 @@
 # Streamwidgets
-Widgets for WAEverything's Twitch channel
+Widgets for [WAEverything's Twitch channel](https://twitch.tv/waeverything)
 
 ## Backgrounds
 ##### Background 
