@@ -8,7 +8,7 @@ https://waeverything.github.io/streamwidgets/background1/index.html
 ## Widgets
 
 #### Discordwidget
-https://waeverything.github.io/streamwidgets/background1/index.html  
+https://waeverything.github.io/streamwidgets/widgets/discord/index.html  
 ##### Resolutions for OBS Browser plugin  
 354x114  
 710x240  
