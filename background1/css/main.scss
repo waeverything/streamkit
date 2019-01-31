@@ -1,0 +1,63 @@
+body {
+  background: #222 url("../img/bg.png") center / cover;
+  height: 100vh;
+  overflow: hidden;
+  user-select: none;
+  display: grid;
+  place-items: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  width: 25%;
+  position: absolute;
+}
+
+.bars {
+  height: 98vh;
+  width: 100vw;
+  position: relative;
+
+  :nth-child(1) {
+    animation: scroll 17s linear infinite;
+    top: 0;
+  }
+
+  :nth-child(2) {
+    animation: scroll 11s linear infinite;
+    top: 12%;
+  }
+
+  :nth-child(3) {
+    animation: scroll 21s linear infinite;
+    top: 24%;
+  }
+
+  :nth-child(4) {
+    animation: scroll 14s linear infinite;
+    bottom: 24%;
+  }
+
+  :nth-child(5) {
+    animation: scroll 25s linear infinite;
+    bottom: 12%;
+  }
+
+  :nth-child(6) {
+    animation: scroll 19s linear infinite;
+    bottom: 0;
+  }
+}
+@keyframes scroll {
+  from {
+    transform: translateX(400%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
