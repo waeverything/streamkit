@@ -15,4 +15,4 @@ https://waeverything.github.io/streamwidgets/widgets/discord/index.html
 1420x480  
 
 Base coded by Fabian Mäkilä  
-(c)WAEverything 2019
+© WAEverything 2019
