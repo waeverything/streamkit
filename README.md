@@ -2,7 +2,8 @@
 Widgets for WAEverything Twitch
 
 ## Backgrounds
-Background https://waeverything.github.io/streamwidgets/background1/index.html
+##### Background 
+https://waeverything.github.io/streamwidgets/background1/index.html
 
 ## Widgets
 
