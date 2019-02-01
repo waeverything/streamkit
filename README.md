@@ -7,7 +7,7 @@ https://waeverything.github.io/streamwidgets/background1/index.html
 
 ## Widgets
 
-#### Discord Server Widget
+#### Discord Widget 1.2
 https://waeverything.github.io/streamwidgets/widgets/discord/index.html  
 
 Base coded by Fabian Mäkilä  
