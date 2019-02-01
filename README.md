@@ -2,7 +2,7 @@
 Widgets for [WAEverything's Twitch channel](https://twitch.tv/waeverything)
 
 ## Backgrounds
-##### Background
+#### Background 1, aka "Boxes"
 https://waeverything.github.io/streamwidgets/background1
 
 ## Widgets
