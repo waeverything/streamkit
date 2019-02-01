@@ -1,9 +1,3 @@
-// Discord Widget JS v.1.0 by Fabian Mäkilä
-
-
-
-// ---= PROPERTIES =---
-
 //JSON URL
 let url = 'https://discordapp.com/api/guilds/95873997861834752/widget.json';
 
@@ -15,10 +9,6 @@ let interval = 80000;
 
 //Delay before the code will be executed for the first time
 let delay = 3000;
-
-
-
-// ---= PROCEED WITH CAUTION =---
 
 let elem = document.getElementById("onlineMembers");
 let div = elem.classList;
