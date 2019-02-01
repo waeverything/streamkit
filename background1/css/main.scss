@@ -29,26 +29,31 @@ img {
 
   :nth-child(2) {
     animation: scroll 11s linear infinite;
+    animation-delay: -7s;
     top: 12%;
   }
 
   :nth-child(3) {
     animation: scroll 21s linear infinite;
+    animation-delay: -5s;
     top: 24%;
   }
 
   :nth-child(4) {
     animation: scroll 14s linear infinite;
+    animation-delay: -8s;
     bottom: 24%;
   }
 
   :nth-child(5) {
     animation: scroll 25s linear infinite;
+    animation-delay: -11s;
     bottom: 12%;
   }
 
   :nth-child(6) {
     animation: scroll 19s linear infinite;
+    animation-delay: -6s;
     bottom: 0;
   }
 }
