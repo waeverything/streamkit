@@ -2,17 +2,13 @@
 Widgets for [WAEverything's Twitch channel](https://twitch.tv/waeverything)
 
 ## Backgrounds
-##### Background 
+##### Background
 https://waeverything.github.io/streamwidgets/background1/index.html
 
 ## Widgets
 
-#### Discordwidget
+#### Discord Server Widget
 https://waeverything.github.io/streamwidgets/widgets/discord/index.html  
-##### Resolutions for OBS Browser plugin  
-354x114  
-710x240  
-1420x480  
 
 Base coded by Fabian Mäkilä  
 © WAEverything 2019

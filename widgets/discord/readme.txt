@@ -3,7 +3,11 @@ Discord Server Widget for OBS
 
 
 -How to use-
-  Lorem here
+  >Add as a browser source
+  >Set the width you wish
+  >Set the height to be "enough"
+  >???
+  >Profit
 
 -What's new-
 
