@@ -11,7 +11,7 @@ let interval = 80000;
 let delay = 3000;
 
 let elem = document.getElementById("memberCount");
-let div = document.getElementById("memberCounter").classList;
+let div = document.getElementById("onlineCounter").classList;
 
 //Start script
 setTimeout(update, delay);
