@@ -1,6 +1,6 @@
 body {
   color: #fff;
-  font: 5vw 'Nunito', sans-serif;
+  font: 5vw 'Noto Sans', sans-serif;
   user-select: none;
 }
 
@@ -21,7 +21,7 @@ img {
   border-radius: 1vw;
   display: grid;
   grid-template-columns: 20vw 1fr 20vw;
-  height: 25vw;
+  height: 24vw;
   place-items: center;
   position: relative;
 }
@@ -35,7 +35,9 @@ h5 {
 }
 
 h6 {
-  font-size: 0.8em;
+  color: #aaa;
+  font-size: 0.75em;
+  text-decoration: underline;
 }
 
 .discord-icon {
@@ -48,13 +50,20 @@ h6 {
   background: #161616;
   border-radius: 1vw;
   bottom: 0;
+  color: #aaa;
   display: flex;
   justify-content: center;
+  padding-bottom: 0.5vw;
   padding-top: 10vw;
   position: absolute;
   transition: bottom ease 1s;
   width: 100vw;
   z-index: -1;
+}
+
+.count {
+  color: #fff;
+  padding-left: 1vw;
 }
 
 .show {

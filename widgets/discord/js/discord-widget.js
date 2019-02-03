@@ -10,7 +10,7 @@ let interval = 80000;
 //Delay before the code will be executed for the first time
 let delay = 3000;
 
-let elem = document.getElementById("onlineMembers");
+let elem = document.getElementById("memberCount");
 let div = elem.classList;
 
 //Start script
@@ -26,7 +26,7 @@ function update() {
   fetch(url)
     .then(res => res.json())
     .then((out) => {
-      elem.innerHTML = "Online: " + out.members.length;
+      elem.innerHTML = out.members.length;
       div.add("show");
       setTimeout(function() {
         div.remove("show");
