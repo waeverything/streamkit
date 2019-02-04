@@ -1,6 +1,6 @@
 body {
   color: #fff;
-  font: 5vw 'Noto Sans', sans-serif;
+  font: 5vw 'Nunito', sans-serif;
   user-select: none;
 }
 
@@ -28,6 +28,7 @@ img {
 
 .server-icon {
   border-radius: 50%;
+  margin-left: 4vw;
 }
 
 h5 {
@@ -36,8 +37,7 @@ h5 {
 
 h6 {
   color: #aaa;
-  font-size: 0.75em;
-  text-decoration: underline;
+  font-size: 0.85em;
 }
 
 .discord-icon {
