@@ -1,5 +1,5 @@
-# Streamwidgets
-Widgets for [WAEverything's Twitch channel](https://twitch.tv/waeverything)
+# WAE-Streamkit
+OBS widgets and backgrounds for [WAEverything's Twitch channel](https://twitch.tv/waeverything)
 
 ## Backgrounds
 #### Background 1, aka "Boxes"
