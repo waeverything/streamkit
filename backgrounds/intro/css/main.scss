@@ -38,7 +38,7 @@ img {
     overflow: hidden;
     white-space: nowrap;
     margin: 0 auto;
-    animation: typing 16s steps(22) infinite;
+    animation: typing 20s steps(22) infinite;
     text-shadow: 0 0 0.1em #000;
   }
 }
@@ -48,15 +48,15 @@ img {
     width: 0;
   }
 
-  15% {
+  10% {
     width: 100%;
   }
 
-  50% {
+  70% {
     width: 100%;
   }
 
-  65% {
+  80% {
     width: 0;
   }
 
