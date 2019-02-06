@@ -1,5 +1,5 @@
 body {
-  background: #222 url('../img/background.jpg') center / cover;
+  background: #222 url("../img/background.jpg") center / cover;
   color: #fff;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
@@ -7,6 +7,7 @@ body {
   overflow: hidden;
   place-items: center;
   user-select: none;
+  font: 1rem 'Russo One', sans-serif;
 }
 
 .bg-objects {
@@ -29,6 +30,41 @@ img {
   height: 100%;
 }
 
+.typewriter {
+  grid-row: 3;
+
+  h1 {
+    font-size: 6rem;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 16s steps(22) infinite;
+    text-shadow: 0 0 0.1em #000;
+  }
+}
+/* The typing effect */
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+
+  15% {
+    width: 100%;
+  }
+
+  50% {
+    width: 100%;
+  }
+
+  65% {
+    width: 0;
+  }
+
+  100% {
+    width: 0;
+  }
+}
+/* Background scroll */
 @keyframes scroll {
   from {
     transform: translateX(550%);
