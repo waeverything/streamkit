@@ -5,6 +5,9 @@ OBS widgets and backgrounds for [WAEverything's Twitch channel](https://twitch.t
 #### Background 1, aka "Boxes"
 https://waeverything.github.io/streamwidgets/background1
 
+#### Background 2, aka "Intro"
+https://waeverything.github.io/streamwidgets/backgrounds/intro
+
 ## Widgets
 
 #### Discord Widget 1.2
