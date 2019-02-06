@@ -5,7 +5,7 @@ OBS widgets and backgrounds for [WAEverything's Twitch channel](https://twitch.t
 #### Background 1, aka "Boxes"
 https://waeverything.github.io/streamkit/backgrounds/boxes
 
-#### Background 2, aka "Intro"
+#### Intermission, now is the time to get a coffee!
 https://waeverything.github.io/streamkit/backgrounds/intro
 
 To include text, add this to your OBS custom css:
