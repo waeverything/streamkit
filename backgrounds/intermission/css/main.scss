@@ -38,30 +38,7 @@ img {
     overflow: hidden;
     white-space: nowrap;
     margin: 0 auto;
-    animation: typing 20s steps(22) infinite;
     text-shadow: 0 0 0.1em #000;
-  }
-}
-/* The typing effect */
-@keyframes typing {
-  0% {
-    width: 0;
-  }
-
-  10% {
-    width: 100%;
-  }
-
-  70% {
-    width: 100%;
-  }
-
-  80% {
-    width: 0;
-  }
-
-  100% {
-    width: 0;
   }
 }
 /* Background scroll */
