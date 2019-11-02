@@ -3,10 +3,10 @@ OBS widgets and backgrounds for [WAEverything's Twitch channel](https://twitch.t
 
 ## Backgrounds
 #### Background 1, aka "Boxes"
-https://waeverything.github.io/streamkit/scenes/boxes
+https://waeverything.github.io/streamkit/scenes/boxes/
 
 #### Intermission, now is the time to get a coffee!
-https://waeverything.github.io/streamkit/scenes/intermission?s=Striimi_alkaa_pian!
+https://waeverything.github.io/streamkit/scenes/intermission/?s=Striimi_alkaa_pian!
 
 (To change the text, just edit the "?s=" part of the URL. Just remember that the spaces needs to be written as underline.)
 
