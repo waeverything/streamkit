@@ -1,0 +1,62 @@
+body {
+  overflow: hidden;
+  height: 100vh;
+  display: grid;
+  font: 1rem 'Russo One', sans-serif;
+  color: #fafafa;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+.top {
+  top: 0;
+  border-bottom: 0.5rem solid #04c2ff;
+}
+
+.bottom {
+  bottom: 0;
+  border-top: 0.5rem solid #04c2ff;
+}
+
+.bottom,
+.top {
+  width: 100vw;
+  position: absolute;
+  height: 6rem;
+  display: flex;
+  background: url("../img/background.png") center / cover;
+  background-position: fixed;
+  justify-content: center;
+  align-items: center;
+}
+
+.wae-logo {
+  height: 10rem;
+  position: absolute;
+  top: .5rem;
+  width: 100%;
+}
+
+.discord {
+  display: inline-flex;
+  align-items: center;
+  margin-left: auto;
+  padding: 0 1rem;
+  width: 22rem;
+  text-align: center;
+
+  img {
+    height: 5rem;
+  }
+
+  h4 {
+    width: 100%;
+    transition: all 1s ease;
+  }
+}
