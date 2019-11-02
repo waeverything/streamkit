@@ -14,7 +14,7 @@ let typingSpeed = 150;
 
 let url_string = window.location.href;
 let url = new URL(url_string);
-let txt = url.searchParams.get("s");
+let txt = url.searchParams.get("s").replace(/_/g, " ");
 
 let i = 0;
 

@@ -6,17 +6,14 @@ OBS widgets and backgrounds for [WAEverything's Twitch channel](https://twitch.t
 https://waeverything.github.io/streamkit/backgrounds/boxes
 
 #### Intermission, now is the time to get a coffee!
-https://waeverything.github.io/streamkit/backgrounds/intermission
+https://waeverything.github.io/streamkit/backgrounds/intermission?s=Striimi_alkaa_pian!
 
-To include text, add this to your OBS custom css:
-```css
-h1::before {content: 'Striimi alkaa pian!'}
-```
+(To change the text, just edit the "?s=" part of the URL. Just remember that the spaces needs to be written as underline.)
 
 ## Widgets
 
 #### Discord Widget 1.2
 https://waeverything.github.io/streamkit/widgets/discord
 
-Base coded by Fabian Mäkilä  
+Base code by Fabian Mäkilä
 © WAEverything 2019
