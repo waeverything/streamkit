@@ -1,6 +1,6 @@
 body {
-  color: #fff;
-  font: 5vw 'Nunito', sans-serif;
+  color: #fafafa;
+  font: 5vw 'Russo One', sans-serif;
   user-select: none;
 }
 
@@ -13,22 +13,28 @@ p {
 }
 
 img {
-  width: 16vw;
+  width: 100%;
 }
 
 .wrapper {
   background: #23272A;
   border-radius: 2vw;
   display: grid;
-  grid-template-columns: 20vw 1fr 20vw;
-  height: 24vw;
+  grid-gap: 2vw;
+  grid-template-columns: 18vw 1fr 14vw;
+  height: 22vw;
   place-items: center;
   position: relative;
+  padding: 0 2vw;
 }
 
 .server-icon {
   border-radius: 50%;
-  margin-left: 4vw;
+}
+
+.center-text {
+  text-align: left;
+  width: 100%;
 }
 
 h5 {
@@ -37,7 +43,7 @@ h5 {
 
 h6 {
   color: #aaa;
-  font-size: 0.85em;
+  font-size: .9em;
 }
 
 .discord-icon {
@@ -62,7 +68,7 @@ h6 {
 }
 
 .count {
-  color: #fff;
+  color: #fafafa;
   padding-left: 1vw;
 }
 
