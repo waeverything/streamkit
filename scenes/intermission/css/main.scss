@@ -22,12 +22,13 @@ body {
   img {
     animation: scroll 60s linear infinite;
     width: 10%;
+    height: 100%;
   }
 }
 
-img {
+.brand {
   grid-row: 2;
-  height: 100%;
+  width: 60%;
 }
 
 .typewriter {
