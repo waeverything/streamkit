@@ -7,7 +7,7 @@ body {
   overflow: hidden;
   place-items: center;
   user-select: none;
-  font: 1rem 'Russo One', sans-serif;
+  font: 2.5vw 'Russo One', sans-serif;
 }
 
 .bg-objects {
@@ -28,14 +28,13 @@ body {
 
 .brand {
   grid-row: 2;
-  width: 60%;
+  width: 40vw;
 }
 
 .typewriter {
   grid-row: 3;
 
   h1 {
-    font-size: 6rem;
     overflow: hidden;
     white-space: nowrap;
     margin: 0 auto;
