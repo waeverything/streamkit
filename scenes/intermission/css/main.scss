@@ -14,7 +14,7 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 98vh;
+  height: 100%;
   position: absolute;
   width: 100vw;
   z-index: -1;
@@ -35,7 +35,6 @@ body {
   grid-row: 3;
 
   h1 {
-    overflow: hidden;
     white-space: nowrap;
     margin: 0 auto;
     text-shadow: 0 0 0.1em #000;
