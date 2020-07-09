@@ -26,7 +26,7 @@ function update() {
   fetch(url)
     .then(res => res.json())
     .then((out) => {
-      elem.innerHTML = out.members.length;
+      elem.innerHTML = out.presence_count;
       div.add("show");
       setTimeout(function() {
         div.remove("show");
