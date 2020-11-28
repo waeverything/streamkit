@@ -3,20 +3,20 @@
 
 
 // Put your guild ID here
-let guildID = '95873997861834752';
+const guildID = '95873997861834752';
 
 // Delay in seconds before the code will be executed for the first time
-let initialDelay = 3;
+const initialDelay = 3;
 
 // Time in seconds of how long the member counter is shown on the screen
-let displayTime = 7;
+const displayTime = 7;
 
 // Time in seconds of how long should we wait before showing the counter again
-let fetchInterval = 80;
+const fetchInterval = 80;
 
 
-let div = document.getElementById("onlineCounter").classList;
-let elem = document.getElementById("memberCount");
+const div = document.getElementById("onlineCounter").classList;
+const elem = document.getElementById("memberCount");
 
 // Fetch and show the member counter
 function showOnlineMembers() {
