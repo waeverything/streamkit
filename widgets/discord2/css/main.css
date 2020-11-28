@@ -1,0 +1,142 @@
+body {
+  color: #fff;
+  font: 1rem 'Russo One', sans-serif;
+  user-select: none;
+  padding: 2vh 2vw;
+}
+
+img {
+  height: 100%;
+}
+
+p {
+  font-size: 1.3em;
+  margin: 0;
+  padding: 0;
+}
+
+.float-right {
+  float: right!important;
+}
+
+.flip-box .object, .flip-box .front, .content {
+  width: 100%;
+  height: 100%;
+}
+
+.flip-box .front, .flip-box .flank {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+}
+
+.content {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.url-color {
+  color: #04c2ff;
+  text-transform: uppercase;
+}
+
+.front .content {
+  display: grid;
+  grid-template-columns: 4em 1fr 4em;
+  place-items: center;
+}
+
+.flank .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #aaabad;
+}
+
+.flank .content span {
+  color: #fff;
+  padding-left: .3em;
+}
+
+.server-icon {
+  margin-right: auto;
+}
+
+.discord-icon {
+  height: 75%;
+  animation: breath 15s infinite;
+}
+
+.flip-box {
+  float: left;
+  display: block;
+  position: relative;
+  z-index: 2;
+  width: 20em;
+  height: 4em;
+  -webkit-perspective: 40em;
+  -moz-perspective: 40em;
+  -ms-perspective: 40em;
+  -o-perspective: 40em;
+  perspective: 40em;
+  filter: drop-shadow(.2rem .2rem .5rem rgba(0,0,0,.25));
+}
+.flip-box .object {
+  position: absolute;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.flip-box .object.show {
+  -webkit-transform: rotateX(90deg);
+  -moz-transform: rotateX(90deg);
+  -ms-transform: rotateX(90deg);
+  -o-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+}
+
+.flip-box .front {
+  background: #2C2F33;
+  z-index: 1;
+  -webkit-transform: rotateY(0deg) translateZ(2em);
+  -moz-transform: rotateY(0deg) translateZ(2em);
+  -ms-transform: rotateY(0deg) translateZ(2em);
+  -o-transform: rotateY(0deg) translateZ(2em);
+  transform: rotateY(0deg) translateZ(2em);
+}
+
+.flip-box .flank {
+  width: 20em;
+  height: 4em;
+  left: 0;
+  top: 0;
+  background: #23272A;
+  -webkit-transform: rotateX(-90deg) translateZ(2em);
+  -moz-transform: rotateX(-90deg) translateZ(2em);
+  -ms-transform: rotateX(-90deg) translateZ(2em);
+  -o-transform: rotateX(-90deg) translateZ(2em);
+  transform: rotateX(-90deg) translateZ(2em);
+}
+
+@keyframes breath {
+  0% {transform: scale(1);}
+  10% {transform: scale(0.8);}
+  20% {transform: scale(1);}
+  100% {transform: scale(1);}
+}
