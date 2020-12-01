@@ -12,7 +12,7 @@
 ***
 
 ## How to use multiple properties (url parameters)
-Here is a example url with multiple properties: `https://waeverything.github.io/streamkit/widgets/discord2?position=right&size=20`
+Here is a example url with multiple properties: https://waeverything.github.io/streamkit/widgets/discord2?position=right&size=20
 
 You can seperate properties using the `&` character, remember to include the `?` character in the url before the first parameter.
 
