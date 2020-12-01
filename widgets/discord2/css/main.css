@@ -5,6 +5,12 @@ body {
   padding: 2vh 2vw;
 }
 
+* {
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
 img {
   height: 100%;
 }
