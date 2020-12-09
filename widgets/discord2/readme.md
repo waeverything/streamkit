@@ -20,7 +20,7 @@ You can seperate properties using the `&` character, remember to include the `?`
 
 ## Properties
 
-properties | value(s) | description
+property | value(s) | description
 --- | --- | ---
 position | right | Puts the widget to the top right corner of the screen
 size | 0-100 | Allows changing the size of the widget (default 16)
