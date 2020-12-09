@@ -33,7 +33,7 @@ You can find deeper explanations and examples on how each property functions bel
 <br>
 
 ### Widget position
-The widget will default to the upper left corner of the window. If you want it to be on the right side just add `?position=right` to the end of the url like shown below.
+The widget will default to the upper left corner of the window. If you want it to be on the right side just add `?position=right` to the end of the url like shown here.
 
 https://waeverything.github.io/streamkit/widgets/discord2?position=right
 
