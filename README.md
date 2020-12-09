@@ -9,7 +9,7 @@ OBS widgets and backgrounds for [WAEverything's Twitch channel](https://twitch.t
 <br>
 
 > ## Background elements
-> - [Intermission](https://waeverything.github.io/streamkit/scenes/intermission/?s=Striimi_alkaa_pian)
+> - [Intermission](https://waeverything.github.io/streamkit/scenes/backgrounds/intermission/?s=Striimi_alkaa_pian)
 
 ***
 
