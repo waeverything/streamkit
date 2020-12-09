@@ -1,4 +1,4 @@
-# WAE's Discord Widget for streaming
+# WAE - Discord Widget v2 [preview](preview.png)
 
 **Widget url:** https://waeverything.github.io/streamkit/widgets/discord2
 
