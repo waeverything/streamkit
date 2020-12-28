@@ -12,7 +12,7 @@
 ***
 
 ## How to use properties (url parameters)
-Here is a example url with multiple properties: https://waeverything.github.io/streamkit/widgets/discord2?position=right&size=20
+Here is a example url with multiple properties: https://waeverything.github.io/streamkit/widgets/discord2?position=right&size=20&tags=noshadow,anothertag
 
 You can seperate properties using the `&` character, remember to include the `?` character in the url before the first parameter.
 
@@ -24,7 +24,7 @@ property | value(s) | description
 --- | --- | ---
 position | right | Puts the widget to the top right corner of the screen
 size | 0-100 | Allows changing the size of the widget (default 16)
-shadow | false | Disable drop shadow if that's not for you
+tags | noshadow, transparent | Various tags that do various things
 
 <br>
 
@@ -44,5 +44,10 @@ You can change the widget size by adding `?size=16` to the end of the url. Defau
 
 <br>
 
-### Shadow
-If you want for any reason to disable widget's drop shadow you can simply set the shadow property to false like so: `?shadow=false`
+### Tags
+Multiple tags can be seperated with "," like this: `tags=noshadow,transparent`
+
+tag | explanation
+--- | ---
+noshadow | Disables widget shadow
+transparent | Makes the widget transparent
