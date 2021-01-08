@@ -5,6 +5,7 @@ OBS widgets and backgrounds for [WAEverything's Twitch channel](https://twitch.t
 
 > ## Widgets
 > - [Discord Widget v2](https://github.com/waeverything/streamkit/tree/master/widgets/discord2)
+> - [Transparent Discord Widget](https://github.com/waeverything/streamkit/tree/master/widgets/discord-transparent)
 
 <br>
 

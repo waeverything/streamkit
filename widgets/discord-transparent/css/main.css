@@ -1,0 +1,66 @@
+body {
+  color: #fff;
+  font: 6.5vw 'Russo One', sans-serif;
+  user-select: none;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2vw;
+  text-align: center;
+}
+
+.brand-logo {
+  height: 50vh;
+}
+
+.url-color {
+  color: #04c2ff;
+  text-transform: uppercase;
+}
+
+.flip-box {
+  position: relative;
+}
+
+.flip-box div {
+  backface-visibility: hidden;
+  transition: transform 1s;
+}
+
+.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transform: rotateX(180deg);
+}
+
+.back span {
+  color: #fff;
+  padding-left: .3em;
+}
+
+.show .front {
+  transform: rotateX(-180deg);
+}
+
+.show .back {
+  transform: rotateX(0deg);
+}
+
+.discord-icon { 
+  animation: breath 15s infinite;
+  height: 70vh;
+}
+
+@keyframes breath {
+  0% {transform: scale(1);}
+  10% {transform: scale(0.8);}
+  20% {transform: scale(1);}
+  100% {transform: scale(1);}
+}
