@@ -9,7 +9,7 @@ const guildID = '95873997861834752';
 const initialDelay = 3;
 
 // Time in seconds of how long the member counter is shown on the screen
-const displayTime = 7;
+const displayTime = 10;
 
 // Time in seconds of how long should we wait before showing the counter again
 const fetchInterval = 80;
@@ -22,7 +22,7 @@ function showOnlineMembers() {
   fetch('https://discordapp.com/api/guilds/' + guildID + '/widget.json')
     .then(res => res.json())
     .then((out) => {
-      span.innerHTML = out.presence_count;
+      span.innerHTML = "Online - " + out.presence_count;
       bodyElement.classList.add("show");
 
       setTimeout(function () {

@@ -25,7 +25,7 @@ body {
 
 .flip-box div {
   backface-visibility: hidden;
-  transition: transform 1s;
+  transition: all 1s;
 }
 
 .back {
@@ -37,20 +37,18 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  transform: rotateX(180deg);
-}
-
-.back span {
-  color: #fff;
-  padding-left: .3em;
+  transform: rotateX(90deg);
+  opacity: 0;
 }
 
 .show .front {
-  transform: rotateX(-180deg);
+  transform: rotateX(-90deg);
+  opacity: 0;
 }
 
 .show .back {
   transform: rotateX(0deg);
+  opacity: 1;
 }
 
 .discord-icon { 
