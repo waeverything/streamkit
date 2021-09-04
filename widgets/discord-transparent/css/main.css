@@ -16,10 +16,6 @@ body {
   background-color: rgba(0, 255, 0, 1);
 }
 
-p {
-  white-space: nowrap;
-}
-
 img {
   box-sizing: border-box;
   display: block;
@@ -38,6 +34,7 @@ img {
   position: absolute;
   backface-visibility: hidden;
   transition: all 1s;
+  white-space: nowrap;
 }
 
 .back {
