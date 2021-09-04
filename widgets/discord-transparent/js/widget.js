@@ -15,14 +15,14 @@ const displayTime = 10;
 const fetchInterval = 80;
 
 const bodyElement = document.body;
-const span = document.getElementById("onlineCount");
+const onlineElement = document.getElementById("onlineCount");
 
 // Fetch and show the member counter
 function showOnlineMembers() {
   fetch('https://discordapp.com/api/guilds/' + guildID + '/widget.json')
     .then(res => res.json())
     .then((out) => {
-      span.innerHTML = "Online - " + out.presence_count;
+      onlineElement.innerHTML = "Online - " + out.presence_count;
       bodyElement.classList.add("show");
 
       setTimeout(function () {

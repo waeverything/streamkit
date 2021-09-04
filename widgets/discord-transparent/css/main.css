@@ -1,64 +1,61 @@
+:root {
+  --clr-primary: #04c2ff;
+  --clr-white: #ffffff;
+}
+
 body {
-  color: #fff;
-  font: 6.5vw 'Russo One', sans-serif;
-  user-select: none;
-  height: 100vh;
   display: flex;
-  justify-content: space-between;
+  background: black;
+  overflow: hidden;
+  margin: 0;
+  color: var(--clr-white);
+  font: 6vw 'Russo One', sans-serif;
+  height: 100vh;
+  box-sizing: border-box;
   align-items: center;
-  padding: 0 2vw;
-  text-align: center;
+  padding: 10vh 5vw;
 }
 
-.brand-logo {
-  height: 50vh;
+p {
+  white-space: nowrap;
 }
 
-.url-color {
-  color: #04c2ff;
-  text-transform: uppercase;
+img {
+  box-sizing: border-box;
+  display: block;
+  height: 1.5em;
 }
 
-.flip-box {
+.content {
+  width: 100%;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.flip-box div {
+.content > * {
+  position: absolute;
   backface-visibility: hidden;
   transition: all 1s;
 }
 
 .back {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  transform: rotateX(90deg);
+  transform: rotateX(180deg);
   opacity: 0;
 }
 
-.show .front {
-  transform: rotateX(-90deg);
+.highlight {
+  color: var(--clr-primary);
+  text-transform: uppercase;
+}
+
+body.show .front {
+  transform: rotateX(-180deg);
   opacity: 0;
 }
 
-.show .back {
+body.show .back {
   transform: rotateX(0deg);
   opacity: 1;
-}
-
-.discord-icon { 
-  animation: breath 15s infinite;
-  height: 70vh;
-}
-
-@keyframes breath {
-  0% {transform: scale(1);}
-  10% {transform: scale(0.8);}
-  20% {transform: scale(1);}
-  100% {transform: scale(1);}
 }

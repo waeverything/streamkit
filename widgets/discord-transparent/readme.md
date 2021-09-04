@@ -12,6 +12,7 @@
 ***
 
 ## Resolutions
+A 1:5 aspect ratio is recommended. You may use any of the resolutions listed here:
 - 640x128
 - 1280x256
 - 2560x512
