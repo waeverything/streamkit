@@ -11,7 +11,3 @@ OBS widgets and backgrounds for [WAEverything's Twitch channel](https://twitch.t
 
 > ## Background elements
 > - [Intermission](https://waeverything.github.io/streamkit/scenes/backgrounds/intermission/?s=Striimi_alkaa_pian)
-
-***
-
-© WAEverything 2020 / FabianAdrian
