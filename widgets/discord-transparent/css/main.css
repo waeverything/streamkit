@@ -13,6 +13,7 @@ body {
   box-sizing: border-box;
   align-items: center;
   padding: 10vh 5vw;
+  background-color: rgba(0, 255, 0, 1);
 }
 
 p {
