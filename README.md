@@ -1,5 +1,5 @@
-# WAEverything - Streamkit
-OBS widgets and backgrounds for [WAEverything's Twitch channel](https://twitch.tv/waeverything)
+# Streamkit
+A collection of [OBS](https://obsproject.com) widgets and scenes for WAEverything's members and friends.
 
 <br>
 
@@ -9,5 +9,5 @@ OBS widgets and backgrounds for [WAEverything's Twitch channel](https://twitch.t
 
 <br>
 
-> ## Background elements
-> - [Intermission](https://waeverything.github.io/streamkit/scenes/backgrounds/intermission/?s=Striimi_alkaa_pian)
+> ## Scenes
+> - [Intermission](https://waeverything.github.io/streamkit/scenes/intermission/?s=Striimi_alkaa_pian)
